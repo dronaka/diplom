@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aad766c1-e116-4d01-94ce-1c0dfb28ccf6">
+  <producedTypes>
+    <objectType typeId="e95b0996-eee2-4bc2-b287-daa099799303" valueTypeId="79f2aa95-158a-4ca7-ba2c-b7b1d3dbbeb5"/>
+    <refType typeId="81808ff3-f9af-4e7e-86bd-6c8a8589e890" valueTypeId="a4188633-daad-44ff-a4b6-8195c90f05f3"/>
+    <selectionType typeId="f3753da4-e146-4e2b-88ea-087c0ba550b5" valueTypeId="33f01995-0b65-4826-991e-a3510d2ac798"/>
+    <listType typeId="616ee6ca-af00-43a8-bf02-b67aeab1702d" valueTypeId="cf1ac0d5-e1d0-48ea-b6d3-c4cecbb514ea"/>
+    <managerType typeId="dabff2c8-1c23-4ddc-a0a5-2b1adf721d41" valueTypeId="91f650b2-2f4a-4f35-8c46-4bf63166fb11"/>
+  </producedTypes>
+  <name>ПоступлениеРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПоступлениеРесурсов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиРесурсов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="1b8168e4-2ed5-4943-835d-b002604d3767">
+    <producedTypes>
+      <objectType typeId="5760a924-dd1d-4c1b-b87f-cac44c22075d" valueTypeId="af210967-ca72-448f-b8a7-0094055c0a40"/>
+      <rowType typeId="fb991f6b-d46c-494d-a71e-545f353a4b20" valueTypeId="acda80b4-c4ef-4f53-b03a-02bd5b62a788"/>
+    </producedTypes>
+    <name>СписокРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список ресурсов</value>
+    </synonym>
+    <attributes uuid="aead4aa2-3d2f-48e0-bd22-a82c09d06620">
+      <name>Ресурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СписокРесурсов</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1b046bec-c7a6-4f90-b75d-91541671b022">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

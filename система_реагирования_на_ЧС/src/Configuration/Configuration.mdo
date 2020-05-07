@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27f76af-812a-4eda-b1b8-163e6ec093e1">
+  <name>система_реагирования_на_ЧС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система реагирования на ЧС</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="94d79bfe-ead5-4db7-b4a8-3afa3acacdb3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="da0686dc-2115-40b7-a46c-b2870901e908"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ca69c646-909b-41f5-864c-2391552faa75"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2eda403a-2115-4cde-8576-4fe4c0f0308a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="18b19ca2-153c-4415-9df1-b5fbcadc65f6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3752c59f-fe4c-4fbb-b62a-4c58e39d4d81"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
+  <languages uuid="c2081290-2068-4552-911a-e469abbb1eb4">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.СписокРесурсов</catalogs>
+  <documents>Document.ПоступлениеРесурсов</documents>
+  <documents>Document.СписаниеРесурсов</documents>
+  <reports>Report.ОстаткиРесурсов</reports>
+  <accumulationRegisters>AccumulationRegister.ОстаткиРесурсов</accumulationRegisters>
+</mdclass:Configuration>

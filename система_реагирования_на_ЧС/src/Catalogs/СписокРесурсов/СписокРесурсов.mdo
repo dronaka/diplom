@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dc81644-b975-43e5-8cb9-2376e3ec7849">
+  <producedTypes>
+    <objectType typeId="a47de132-1b52-4a5a-98f4-3ebc93a878f1" valueTypeId="14ca2d4c-c9d9-4dcb-a525-a78a06348b6f"/>
+    <refType typeId="388dbb49-5e0d-45eb-9ebd-8851d70b64bc" valueTypeId="ab7e5018-19c6-47c0-9063-b90896fc0b8f"/>
+    <selectionType typeId="d73bab99-327d-414b-b749-646fd997808d" valueTypeId="0ba5c3ff-73a6-4ab9-bec8-d7e72e464bc3"/>
+    <listType typeId="6dc62823-531d-4948-94d0-b9c9b7832e79" valueTypeId="a72b932d-b214-45b2-80ce-d93f2fe20fba"/>
+    <managerType typeId="72e86a51-fa56-42d0-b466-ac1fb83f5e33" valueTypeId="409f9d6b-cd72-41ae-af91-3bc320559acb"/>
+  </producedTypes>
+  <name>СписокРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СписокРесурсов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СписокРесурсов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

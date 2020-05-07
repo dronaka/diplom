@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9848bacb-2ea9-40b3-8187-3a6df903268d">
+  <producedTypes>
+    <selectionType typeId="5bf943dc-b9dc-4b4c-8e4c-ec2ef1560758" valueTypeId="4002cf9d-c6d1-4bdf-8cb5-df4db69e640c"/>
+    <listType typeId="e13d2c07-27db-414e-b649-d7cc590c3be3" valueTypeId="70f3ce7f-479e-438b-81d6-80c4761bc280"/>
+    <managerType typeId="3625b21c-ccd8-44c6-8cec-6dfd3a4f0c4c" valueTypeId="fe840aec-7531-47a0-87b7-34efc2d82575"/>
+    <recordSetType typeId="cea66a91-6039-4184-9031-885558b7df18" valueTypeId="0517b294-cd09-4e07-a184-460f074a68b1"/>
+    <recordKeyType typeId="5ddfb69f-2b95-4b2f-84fe-5becaf1e0aef" valueTypeId="ed0cbef4-7c88-4688-9755-abf8341a5cef"/>
+    <recordType typeId="3b0596c2-636e-499f-b121-503855101365" valueTypeId="fab43e1b-88c8-4737-ad9f-c5879402751d"/>
+  </producedTypes>
+  <name>ОстаткиРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2ccd12b8-f317-4837-bb55-dd1e23895ee9">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="3e59c611-a34f-430c-861d-0a63e6c35f4d">
+    <name>Ресурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СписокРесурсов</types>
+    </type>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
