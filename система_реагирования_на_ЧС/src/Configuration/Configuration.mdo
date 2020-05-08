@@ -29,6 +29,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Ресурсы</subsystems>
   <catalogs>Catalog.СписокРесурсов</catalogs>
   <documents>Document.ПоступлениеРесурсов</documents>
   <documents>Document.СписаниеРесурсов</documents>

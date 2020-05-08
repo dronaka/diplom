@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1eb3246-9526-4f52-908c-44f241660239">
+  <name>Ресурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ресурсы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СписокРесурсов</content>
+  <content>Document.ПоступлениеРесурсов</content>
+  <content>Document.СписаниеРесурсов</content>
+  <content>Report.ОстаткиРесурсов</content>
+  <content>AccumulationRegister.ОстаткиРесурсов</content>
+</mdclass:Subsystem>
