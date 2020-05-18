@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b1aa7c2-3cda-4e53-a595-6c9b1d981572">
+  <producedTypes>
+    <objectType typeId="27f3b2d1-f5c0-482b-8f6d-24c329a76f5c" valueTypeId="20df3093-9d1b-436b-8594-4dd609eab6a4"/>
+    <refType typeId="2e9fbc55-714f-49d0-bd17-979dc193c298" valueTypeId="a92317c1-1f5a-4301-91f1-268e271b961f"/>
+    <selectionType typeId="e9ae2693-3211-4c13-94d6-6579272f92fb" valueTypeId="68e95a78-ab8b-43b5-813f-f7e88a8b4cd6"/>
+    <listType typeId="10532cf7-246e-4c30-9657-cb30991696d4" valueTypeId="60933958-e217-4c6e-ab27-7930d9f5f7cb"/>
+    <managerType typeId="6f57d4e9-6ee8-4451-b632-9ff6149b80ce" valueTypeId="aae1368d-f3ff-458f-93ca-0fb3f1f6f56b"/>
+  </producedTypes>
+  <name>Событие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Событие.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Событие.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="5e57c32c-45ee-4976-9840-91902454e006">
+    <name>Название</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e08d9250-c2ec-4d0f-a299-08c10003b062">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f2d97a3e-6e04-4cf5-9141-61d89d9b4909">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

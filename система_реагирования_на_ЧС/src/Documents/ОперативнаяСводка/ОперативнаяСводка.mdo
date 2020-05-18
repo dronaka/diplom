@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="154f1c4d-36b2-40c1-b5ea-885b8f3023a8">
+  <producedTypes>
+    <objectType typeId="5af8ba4d-9763-4482-84cf-199cc77cbe6e" valueTypeId="246da581-d2d3-4ed2-91b6-f5375d782b2e"/>
+    <refType typeId="4b61a50f-addd-4c54-8ebe-2241b951ce0a" valueTypeId="acfb8cac-57b7-4a95-8d47-c609f17dfc71"/>
+    <selectionType typeId="bbf33c7a-2126-4faf-bd8a-7c3fc65ffe19" valueTypeId="089c2392-d5de-4d7d-a4b5-2df94cc51c57"/>
+    <listType typeId="1cd9f9c4-bff2-40d6-b206-d5942bf631ac" valueTypeId="c543824e-8309-47c5-a46e-b9567cc0ae85"/>
+    <managerType typeId="5e804cd2-79c0-4ee2-8f25-aefe712fcb59" valueTypeId="edb7c152-b4ef-4687-b654-217fe3f0671d"/>
+  </producedTypes>
+  <name>ОперативнаяСводка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативная сводка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОперативнаяСводка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="9f59969c-edf1-41c8-98e0-9091f9f1caac">
+    <name>СсылкаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка события</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Событие</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="519b8254-d079-442f-8cd0-491626f99e80">
+    <name>МестоПроисшествия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место происшествия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95f0aa39-d751-4bd0-96fa-9aadafb6ca58">
+    <name>ХарактерПроисшествия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характер происшествия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77c27fe0-a44c-414b-9c88-5817d4b9e0a6">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="920da9ec-b167-450e-b7de-4decb31bfa0e">
+    <producedTypes>
+      <objectType typeId="c923ddb9-0bce-4aaf-8384-455748e4769d" valueTypeId="8707ef01-c98d-4ced-9750-25ca9922d647"/>
+      <rowType typeId="ed4cbaf7-1486-4e72-acc7-2696baf2c9d2" valueTypeId="1bb579f3-fffc-4124-8b90-029eeda78d65"/>
+    </producedTypes>
+    <name>СписокРесурсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список ресурсов</value>
+    </synonym>
+    <attributes uuid="cc17b6c4-ebae-46c4-8a9a-2e41f2fa90db">
+      <name>Ресурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СписокРесурсов</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e667d563-b710-41c0-9de7-7fa89db6dfe6">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

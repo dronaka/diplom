@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00c7ecee-32d3-4ef3-9494-8a39dd1bd9cc">
+  <producedTypes>
+    <objectType typeId="4a5da8b9-1171-4156-9ed4-411cac507de9" valueTypeId="12a9ba4a-f367-4959-ab05-9f1e99c91d8f"/>
+    <refType typeId="49dffe77-9341-4b8f-9165-0f841a9371d1" valueTypeId="f5b42454-ffba-4f90-8c27-3e904563ed6b"/>
+    <selectionType typeId="271866e4-2d66-43b2-8057-4e64e9c1a0fd" valueTypeId="c42091b2-7554-40da-9f77-ee2970ee0628"/>
+    <listType typeId="c2f0a0fe-7322-4244-8d0d-c550057dbf1f" valueTypeId="8b22b9e7-74af-44cc-9e04-24c10541a6b0"/>
+    <managerType typeId="c46c5b6b-67f2-4e18-b07e-171ba7c6c519" valueTypeId="59fef8ec-6e6a-42e9-b211-dcae5db0e50b"/>
+  </producedTypes>
+  <name>СписокСпасателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список спасателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СписокСпасателей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СписокСпасателей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4f95c710-0077-4b60-a720-dbb6e2be0066">
+    <name>Специализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специализация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c0eeddf-bd44-47f5-aadf-ce2eefb86235">
+    <name>СтажРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стаж работы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

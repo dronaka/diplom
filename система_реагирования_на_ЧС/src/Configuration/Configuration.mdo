@@ -30,9 +30,22 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Ресурсы</subsystems>
+  <subsystems>Subsystem.События</subsystems>
+  <subsystems>Subsystem.ОперативнаяСводка</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.ПланРеагирования</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ОтветственныйЗаСобытия</roles>
+  <roles>Role.Админ</roles>
   <catalogs>Catalog.СписокРесурсов</catalogs>
+  <catalogs>Catalog.СписокСпасателей</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ПоступлениеРесурсов</documents>
   <documents>Document.СписаниеРесурсов</documents>
+  <documents>Document.Событие</documents>
+  <documents>Document.ОперативнаяСводка</documents>
+  <documents>Document.ПланРеагирования</documents>
+  <documents>Document.Бригада</documents>
   <reports>Report.ОстаткиРесурсов</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиРесурсов</accumulationRegisters>
 </mdclass:Configuration>

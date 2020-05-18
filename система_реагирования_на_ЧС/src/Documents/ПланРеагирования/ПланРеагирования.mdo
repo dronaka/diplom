@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4bcdbce-b6bf-4b17-b3a4-512123c5d7ae">
+  <producedTypes>
+    <objectType typeId="c73164a0-565f-4d74-aa3a-0abf22c28474" valueTypeId="3af51da0-e958-45e0-899a-b16f06c60a54"/>
+    <refType typeId="206b70ce-babd-4ec5-8638-8daba39ce199" valueTypeId="10b0e600-9487-4fa6-a2f6-0decde04ec74"/>
+    <selectionType typeId="41d86837-dbdf-4443-a9eb-54e9f5950e92" valueTypeId="7ba9d12f-279b-4f46-8eab-e229c2ef2d9b"/>
+    <listType typeId="0cca1ced-e2fe-41d0-8294-f54633412910" valueTypeId="f99e046e-097b-4a5f-91ba-1a8b9e7473a3"/>
+    <managerType typeId="61da8441-d58a-4b6d-a654-a3e89ed1f6d3" valueTypeId="bb69e3ac-e255-477e-8f48-e4b6ec029730"/>
+  </producedTypes>
+  <name>ПланРеагирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>План реагирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПланРеагирования.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3b04e537-881f-459f-a15e-a87395e5ab30">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8555b91f-095e-475e-ab3c-23cc90301366">
+    <name>СсылкаОперативнаяСводка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка оперативная сводка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОперативнаяСводка</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb599491-0dd6-4e73-81e9-24839d0ed293">
+    <name>СсылкаСобытие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка событие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Событие</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

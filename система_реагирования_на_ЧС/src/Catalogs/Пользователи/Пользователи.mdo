@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d381891-49c7-467e-8770-c2412b1d11d0">
+  <producedTypes>
+    <objectType typeId="d4a2a490-2404-4e52-9799-0d1dad58d871" valueTypeId="532f1306-4b79-4763-9f74-c5981b0e465c"/>
+    <refType typeId="a4ced468-23d4-4ccb-b256-f7c7e765ff98" valueTypeId="291703dd-0857-4916-9d98-6ec463a29072"/>
+    <selectionType typeId="6288cc1c-da9c-4751-b8c3-6cf7d7c16f61" valueTypeId="3f1f054c-743e-4ded-b62f-a1433dac45f3"/>
+    <listType typeId="e0f662af-f02a-4159-aecb-355895fedd23" valueTypeId="7880552a-7ae5-43c3-91a2-ef965c2bb00c"/>
+    <managerType typeId="da02f0f7-431a-414e-9f62-8c2151b01bad" valueTypeId="53676fe4-438b-4d34-8b1c-db1aaf77be73"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c91316f9-4207-4cc0-8550-3daef9000d7e">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ba88c1b-3fc1-4c60-a681-dbec08a27ef5">
+    <name>Специализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специализация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="86b5df6e-1c62-4993-9964-bb602bd38c72">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
