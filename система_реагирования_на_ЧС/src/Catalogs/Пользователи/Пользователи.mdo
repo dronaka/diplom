@@ -45,21 +45,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9ba88c1b-3fc1-4c60-a681-dbec08a27ef5">
-    <name>Специализация</name>
-    <synonym>
-      <key>ru</key>
-      <value>Специализация</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>25</length>
-      </stringQualifiers>
-    </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="86b5df6e-1c62-4993-9964-bb602bd38c72">
     <name>Пароль</name>
     <synonym>
@@ -73,6 +58,21 @@
       </stringQualifiers>
     </type>
     <passwordMode>true</passwordMode>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ba88c1b-3fc1-4c60-a681-dbec08a27ef5">
+    <name>Специализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специализация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

@@ -37,6 +37,10 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ОтветственныйЗаСобытия</roles>
   <roles>Role.Админ</roles>
+  <roles>Role.ОтветственныйЗаОС</roles>
+  <roles>Role.ОтветственныйЗаРесурсы</roles>
+  <roles>Role.ОтветственныйЗаПлан</roles>
+  <roles>Role.ОтветственныйЗаБригады</roles>
   <catalogs>Catalog.СписокРесурсов</catalogs>
   <catalogs>Catalog.СписокСпасателей</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
