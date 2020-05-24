@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a6f167f-7c5b-4f4c-98ea-3adb006b0e28">
+  <producedTypes>
+    <objectType typeId="947264da-6f07-4879-9c2b-70b09c88ffad" valueTypeId="2cf7dcdf-ca87-4981-a60d-47bb73568718"/>
+    <refType typeId="1af7627e-c356-4cec-84f6-1e7992586ad9" valueTypeId="acc8e492-737c-46e5-b3c8-b81b8cf47588"/>
+    <selectionType typeId="99fba5f8-205c-402b-96fe-e6b9cf039a33" valueTypeId="c5f412f5-e769-4f0b-b1d9-525751c1886b"/>
+    <listType typeId="59c994d7-a5ff-4f20-b3bd-892aecb54ed5" valueTypeId="2b04d7f0-2056-44de-95ac-3f3809d86249"/>
+    <managerType typeId="a541bcac-a0d1-4337-b651-c7f6901b2e5f" valueTypeId="df7cdf1f-62bc-4e79-8e02-96a4f5143836"/>
+  </producedTypes>
+  <name>ЗадачаИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача исполнителя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачаИсполнителя.StandardAttribute.Number</inputByString>
+  <inputByString>Task.ЗадачаИсполнителя.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <addressing>InformationRegister.РегистрАдресации</addressing>
+  <mainAddressingAttribute>Task.ЗадачаИсполнителя.AddressingAttribute.РольИсполнителя</mainAddressingAttribute>
+  <currentPerformer>SessionParameter.ТекущийПользователь</currentPerformer>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <defaultListForm>Task.ЗадачаИсполнителя.Form.ФормаСписка</defaultListForm>
+  <forms uuid="2d8b35f2-2a8d-4dad-abec-121598a07f49">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="fc5f0eca-826f-45be-b412-c78f5ad1b410">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <dataHistory>Use</dataHistory>
+    <addressingDimension>InformationRegister.РегистрАдресации.Dimension.Исполнитель</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+  <addressingAttributes uuid="8d520aea-0b12-41d6-92fd-5b5435048806">
+    <name>РольИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль исполнителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиПользователей</types>
+    </type>
+    <dataHistory>Use</dataHistory>
+    <addressingDimension>InformationRegister.РегистрАдресации.Dimension.РольИсполнителя</addressingDimension>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
+</mdclass:Task>

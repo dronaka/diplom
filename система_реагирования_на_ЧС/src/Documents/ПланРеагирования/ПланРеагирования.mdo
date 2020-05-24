@@ -62,4 +62,42 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="ba6c98cb-4f97-4578-a198-159679875dcf">
+    <producedTypes>
+      <objectType typeId="fa1e88e2-d2e4-4406-88d3-427d957a83d4" valueTypeId="503a0355-29b4-415d-9824-e46233c37912"/>
+      <rowType typeId="1d40d143-c8cf-4ba4-96d4-6fcf64a1b4b3" valueTypeId="3fee1b31-4cb4-48d8-a1b9-8bfc79ed6323"/>
+    </producedTypes>
+    <name>Ресурсы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурсы</value>
+    </synonym>
+    <attributes uuid="c55c978c-b48e-43e1-9a79-c2f093c0a8fb">
+      <name>Ресурс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ресурс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СписокРесурсов</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="35ba7684-247b-4ff8-8a68-e5d2bcc3ac72">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

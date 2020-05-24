@@ -31,10 +31,10 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="c91316f9-4207-4cc0-8550-3daef9000d7e">
-    <name>Должность</name>
+    <name>Роль</name>
     <synonym>
       <key>ru</key>
-      <value>Должность</value>
+      <value>Роль</value>
     </synonym>
     <type>
       <types>String</types>
@@ -42,22 +42,6 @@
         <length>25</length>
       </stringQualifiers>
     </type>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="86b5df6e-1c62-4993-9964-bb602bd38c72">
-    <name>Пароль</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пароль</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>25</length>
-      </stringQualifiers>
-    </type>
-    <passwordMode>true</passwordMode>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

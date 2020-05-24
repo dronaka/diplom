@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55bb31f1-0e02-443c-90aa-a8b3ec8c3da4">
+  <producedTypes>
+    <objectType typeId="879e5d3d-3b9d-494e-96c7-727dc4755dda" valueTypeId="049c476e-08b3-45bd-bd08-371eafad9420"/>
+    <refType typeId="acb45866-5f73-4e58-aaf5-b15b4090e133" valueTypeId="84f26aff-ee5b-407f-9774-d3207eafeddf"/>
+    <selectionType typeId="d9f5e47f-ab5e-4109-b9b9-7b56f13259f2" valueTypeId="477b4c3a-c40e-45ee-b40c-fbb80a8c2c6d"/>
+    <listType typeId="d0e5f2f7-3313-4817-b3a4-224916655fbe" valueTypeId="40d2d1f8-3478-46a8-bc60-ef44c1b62895"/>
+    <managerType typeId="ffabbfff-a0ed-4e27-8368-15bd244bcb93" valueTypeId="de8c7315-6e0c-4e4d-8eef-261a66eb1401"/>
+    <routePointRef typeId="1c8f5c6a-67aa-4352-b28f-87dce7621ab2" valueTypeId="36a9adc1-928e-43ec-9952-786ccda44797"/>
+  </producedTypes>
+  <name>процессЧС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процесс ЧС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.процессЧС.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаИсполнителя</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+</mdclass:BusinessProcess>

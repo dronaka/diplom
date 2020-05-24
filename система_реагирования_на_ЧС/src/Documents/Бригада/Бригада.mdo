@@ -42,7 +42,7 @@
         <value>ФИО</value>
       </synonym>
       <type>
-        <types>CatalogRef.СписокСпасателей</types>
+        <types>CatalogRef.Пользователи</types>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
