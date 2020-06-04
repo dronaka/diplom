@@ -7,7 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.СписокСпасателей</content>
   <content>Catalog.Пользователи</content>
   <content>Catalog.РолиПользователей</content>
   <content>InformationRegister.РегистрАдресации</content>

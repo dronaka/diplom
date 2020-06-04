@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8760f249-9dd3-4a50-920b-be789499068b">
+  <name>ПодсистемаПланРеагирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема план реагирования</value>
+  </synonym>
+</mdclass:Role>

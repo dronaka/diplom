@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55bb31f1-0e02-443c-90aa-a8b3ec8c3da4">
+  <producedTypes>
+    <objectType typeId="879e5d3d-3b9d-494e-96c7-727dc4755dda" valueTypeId="049c476e-08b3-45bd-bd08-371eafad9420"/>
+    <refType typeId="acb45866-5f73-4e58-aaf5-b15b4090e133" valueTypeId="84f26aff-ee5b-407f-9774-d3207eafeddf"/>
+    <selectionType typeId="d9f5e47f-ab5e-4109-b9b9-7b56f13259f2" valueTypeId="477b4c3a-c40e-45ee-b40c-fbb80a8c2c6d"/>
+    <listType typeId="d0e5f2f7-3313-4817-b3a4-224916655fbe" valueTypeId="40d2d1f8-3478-46a8-bc60-ef44c1b62895"/>
+    <managerType typeId="ffabbfff-a0ed-4e27-8368-15bd244bcb93" valueTypeId="de8c7315-6e0c-4e4d-8eef-261a66eb1401"/>
+    <routePointRef typeId="1c8f5c6a-67aa-4352-b28f-87dce7621ab2" valueTypeId="36a9adc1-928e-43ec-9952-786ccda44797"/>
+  </producedTypes>
+  <name>ЛиквидацияЧС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ликвидация ЧС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ЛиквидацияЧС.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <defaultObjectForm>BusinessProcess.ЛиквидацияЧС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>BusinessProcess.ЛиквидацияЧС.Form.ФормаСписка</defaultListForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаИсполнителя</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="97254ea6-41bc-4c07-bc4f-098553941268">
+    <name>Ликвидирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ликвидирован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6183b194-b820-432c-9631-1c39903aabf2">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Событие</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="5d4dc820-c824-4463-9aea-a8ce8a84d562">
+    <name>ОперативнаяСводка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оперативная сводка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ОперативнаяСводка</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="d926f10b-4640-466a-adce-e4e648e20c29">
+    <producedTypes>
+      <objectType typeId="7bec0ee4-0f8f-4e0f-8824-60f3470ed865" valueTypeId="95eccfef-b113-4940-b6b1-127d58056491"/>
+      <rowType typeId="b81ac5f5-9d39-410f-98ef-2487c11d322a" valueTypeId="df0b3634-61ab-4672-af53-b059801265d6"/>
+    </producedTypes>
+    <name>ПланыРеагирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планы реагирования</value>
+    </synonym>
+    <attributes uuid="d33697d2-aede-4910-b50a-c62d348137ac">
+      <name>План</name>
+      <synonym>
+        <key>ru</key>
+        <value>План</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПланРеагирования</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7a5db632-86ea-4f86-ad7e-bb03bb1cf987">
+    <producedTypes>
+      <objectType typeId="ba176dfa-2f4b-4c0b-9302-45a3eb22ace4" valueTypeId="33932eb6-4f5b-4150-8e85-4ec6413ac3b0"/>
+      <rowType typeId="1f4574a9-317a-43ba-9df8-847ae07a720e" valueTypeId="6aefe18a-226e-4246-bb43-8814df8a4db2"/>
+    </producedTypes>
+    <name>Бригады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бригады</value>
+    </synonym>
+    <attributes uuid="44a359ea-7123-4f6c-9e7a-f765750e7f43">
+      <name>Бригады</name>
+      <synonym>
+        <key>ru</key>
+        <value>Бригады</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Бригада</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4b9037da-5ab3-4267-8bb7-17a1e69f06ac">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1ccbb25-209f-4899-89ef-ebd3e560c49f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

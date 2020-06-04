@@ -30,21 +30,49 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.Ресурсы</subsystems>
+  <subsystems>Subsystem.УправлениеЧС</subsystems>
   <subsystems>Subsystem.События</subsystems>
   <subsystems>Subsystem.ОперативнаяСводка</subsystems>
-  <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.ПланРеагирования</subsystems>
   <subsystems>Subsystem.Бригады</subsystems>
+  <subsystems>Subsystem.Доклады</subsystems>
+  <subsystems>Subsystem.Ресурсы</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
-  <roles>Role.ОтветственныйЗаСобытия</roles>
   <roles>Role.Админ</roles>
+  <roles>Role.Пользователь</roles>
+  <roles>Role.ЧтениеСобытий</roles>
+  <roles>Role.ЧтениеОС</roles>
+  <roles>Role.ЧтениеПланы</roles>
+  <roles>Role.ЧтениеОстатковРесурсов</roles>
+  <roles>Role.ЧтениеНСИ</roles>
+  <roles>Role.ДобавлениеИзменениеСобытий</roles>
+  <roles>Role.ДобавлениеИзменениеОС</roles>
+  <roles>Role.ДобавлениеИзменениеПлана</roles>
+  <roles>Role.ДобавлениеИзменениеДоклады</roles>
+  <roles>Role.ДобавлениеИзменениеБригады</roles>
+  <roles>Role.РаботаРесурсы</roles>
+  <roles>Role.РаботаНСИ</roles>
+  <roles>Role.ОтветственныйЗаСобытия</roles>
   <roles>Role.ОтветственныйЗаОС</roles>
-  <roles>Role.ОтветственныйЗаРесурсы</roles>
   <roles>Role.ОтветственныйЗаПлан</roles>
   <roles>Role.ОтветственныйЗаБригады</roles>
+  <roles>Role.Задачи</roles>
+  <roles>Role.ОповещениеСпасателей</roles>
+  <roles>Role.ПодсистемаБригады</roles>
+  <roles>Role.ПодсистемаДоклады</roles>
+  <roles>Role.ПодсистемаСобытия</roles>
+  <roles>Role.ПодсистемаПланРеагирования</roles>
+  <roles>Role.ПодсистемаОС</roles>
+  <roles>Role.ПодсистемаРесурсы</roles>
+  <roles>Role.ПодсистемаУправлениеЧС</roles>
+  <roles>Role.ПодсистемаНСИ</roles>
+  <roles>Role.ПодтверждениеУчастия</roles>
+  <roles>Role.ЧтениеБригад</roles>
+  <roles>Role.УправлениеЧС</roles>
+  <roles>Role.ДобавлениеЧС</roles>
+  <roles>Role.ЧтениеПользователей</roles>
   <catalogs>Catalog.СписокРесурсов</catalogs>
-  <catalogs>Catalog.СписокСпасателей</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.РолиПользователей</catalogs>
   <documents>Document.ПоступлениеРесурсов</documents>
@@ -53,10 +81,11 @@
   <documents>Document.ОперативнаяСводка</documents>
   <documents>Document.ПланРеагирования</documents>
   <documents>Document.Бригада</documents>
+  <documents>Document.Доклады</documents>
   <reports>Report.ОстаткиРесурсов</reports>
   <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиРесурсов</accumulationRegisters>
-  <businessProcesses>BusinessProcess.процессЧС</businessProcesses>
-  <tasks>Task.Задача</tasks>
+  <businessProcesses>BusinessProcess.ЛиквидацияЧС</businessProcesses>
+  <businessProcesses>BusinessProcess.ОповещениеСпасателей</businessProcesses>
   <tasks>Task.ЗадачаИсполнителя</tasks>
 </mdclass:Configuration>

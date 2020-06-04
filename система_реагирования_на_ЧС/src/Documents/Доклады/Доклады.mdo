@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2eb8ec98-1d93-4c40-88d5-33e60e5d911e">
+  <producedTypes>
+    <objectType typeId="cf9d039e-2c73-4c44-b447-143e5e38bdab" valueTypeId="16d08ceb-827a-4cab-8587-e622f0d9e572"/>
+    <refType typeId="c7ae3bfd-88bf-467d-9728-f36834490405" valueTypeId="d7454757-f52f-4a39-b7a7-638b9ae73c86"/>
+    <selectionType typeId="86fc48d1-df4c-428d-9ce0-595a1ec97947" valueTypeId="a5bdf1ea-31c3-487a-8f9d-d6f3e7306883"/>
+    <listType typeId="66bcbc2d-a744-4d90-a54f-e0c012c05824" valueTypeId="03ba95a9-76b0-4d32-a97f-87ad478cc557"/>
+    <managerType typeId="78522aca-7975-4112-b845-cf0de5350272" valueTypeId="a7f97194-5f57-4167-9ca9-78d946caf773"/>
+  </producedTypes>
+  <name>Доклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доклады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Доклады.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Доклады.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="24f80211-da4b-4887-9ee4-49fe6d7f7bd6">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a8e47a0-e71f-47d1-a8c5-e28e4d36f2d0">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c99bf290-600f-4b50-8ab2-55ebbcf0192e">
+    <name>ПланРеагирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>План реагирования</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПланРеагирования</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6c6dcf8d-7a5f-4ad0-aac7-402ec9a43b07">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

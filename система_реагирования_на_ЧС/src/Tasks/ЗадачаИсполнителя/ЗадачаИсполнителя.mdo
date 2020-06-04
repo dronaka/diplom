@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a6f167f-7c5b-4f4c-98ea-3adb006b0e28">
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a6f167f-7c5b-4f4c-98ea-3adb006b0e28">
   <producedTypes>
     <objectType typeId="947264da-6f07-4879-9c2b-70b09c88ffad" valueTypeId="2cf7dcdf-ca87-4981-a60d-47bb73568718"/>
     <refType typeId="1af7627e-c356-4cec-84f6-1e7992586ad9" valueTypeId="acc8e492-737c-46e5-b3c8-b81b8cf47588"/>
@@ -27,15 +27,43 @@
   <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
   <descriptionLength>25</descriptionLength>
   <addressing>InformationRegister.РегистрАдресации</addressing>
-  <mainAddressingAttribute>Task.ЗадачаИсполнителя.AddressingAttribute.РольИсполнителя</mainAddressingAttribute>
+  <mainAddressingAttribute>Task.ЗадачаИсполнителя.AddressingAttribute.Исполнитель</mainAddressingAttribute>
   <currentPerformer>SessionParameter.ТекущийПользователь</currentPerformer>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <defaultObjectForm>Task.ЗадачаИсполнителя.Form.ФормаЗадачи</defaultObjectForm>
   <defaultListForm>Task.ЗадачаИсполнителя.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="2ad6a14e-2fe6-46ef-882f-2053a00d9294">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="2d8b35f2-2a8d-4dad-abec-121598a07f49">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30a6fb43-bfb2-4e16-be9e-77d2c1470820">
+    <name>ФормаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -49,7 +77,10 @@
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <addressingDimension>InformationRegister.РегистрАдресации.Dimension.Исполнитель</addressingDimension>
     <fullTextSearch>Use</fullTextSearch>
   </addressingAttributes>
@@ -62,7 +93,10 @@
     <type>
       <types>CatalogRef.РолиПользователей</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <addressingDimension>InformationRegister.РегистрАдресации.Dimension.РольИсполнителя</addressingDimension>
     <fullTextSearch>Use</fullTextSearch>
   </addressingAttributes>

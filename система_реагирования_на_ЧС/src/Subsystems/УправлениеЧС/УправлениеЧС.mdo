@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fa1e7b7-9e9d-4787-8ea1-fe995a9181d9">
+  <name>УправлениеЧС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ЧС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>BusinessProcess.ЛиквидацияЧС</content>
+</mdclass:Subsystem>

@@ -23,6 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПланРеагирования.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3b04e537-881f-459f-a15e-a87395e5ab30">
@@ -62,6 +63,15 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="4139f696-2b5e-4bf5-af4e-0980f3e4b5b4">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="ba6c98cb-4f97-4578-a198-159679875dcf">
     <producedTypes>
       <objectType typeId="fa1e88e2-d2e4-4406-88d3-427d957a83d4" valueTypeId="503a0355-29b4-415d-9824-e46233c37912"/>

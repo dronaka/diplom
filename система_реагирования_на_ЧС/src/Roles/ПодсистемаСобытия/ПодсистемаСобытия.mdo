@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af24d69c-b32f-4544-b981-fb8bebfca9d6">
+  <name>ПодсистемаСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема события</value>
+  </synonym>
+</mdclass:Role>

@@ -23,13 +23,16 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОперативнаяСводка.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОперативнаяСводка.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ОперативнаяСводка.Form.ФормаВыбора</defaultChoiceForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="9f59969c-edf1-41c8-98e0-9091f9f1caac">
-    <name>СсылкаСобытия</name>
+    <name>СсылкаСобытие</name>
     <synonym>
       <key>ru</key>
-      <value>Ссылка события</value>
+      <value>Ссылка событие</value>
     </synonym>
     <type>
       <types>DocumentRef.Событие</types>
@@ -46,7 +49,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>50</length>
+        <length>100</length>
       </stringQualifiers>
     </type>
     <fullTextSearch>Use</fullTextSearch>
@@ -60,9 +63,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -75,49 +76,36 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="920da9ec-b167-450e-b7de-4decb31bfa0e">
-    <producedTypes>
-      <objectType typeId="c923ddb9-0bce-4aaf-8384-455748e4769d" valueTypeId="8707ef01-c98d-4ced-9750-25ca9922d647"/>
-      <rowType typeId="ed4cbaf7-1486-4e72-acc7-2696baf2c9d2" valueTypeId="1bb579f3-fffc-4124-8b90-029eeda78d65"/>
-    </producedTypes>
-    <name>СписокРесурсов</name>
+  <forms uuid="912416cb-9e75-4efe-9484-b36a584ea0b9">
+    <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
-      <value>Список ресурсов</value>
+      <value>Форма документа</value>
     </synonym>
-    <attributes uuid="cc17b6c4-ebae-46c4-8a9a-2e41f2fa90db">
-      <name>Ресурс</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ресурс</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.СписокРесурсов</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="e667d563-b710-41c0-9de7-7fa89db6dfe6">
-      <name>Количество</name>
-      <synonym>
-        <key>ru</key>
-        <value>Количество</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b918cc1-8e38-45d9-892a-a2a4620dc688">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c7be8b5d-5a69-438f-aff6-fe4897084000">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>

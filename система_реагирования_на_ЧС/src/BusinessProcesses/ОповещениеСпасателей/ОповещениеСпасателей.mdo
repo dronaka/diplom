@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89822eea-a7a4-44fc-8fed-8ce041d26cd7">
+  <producedTypes>
+    <objectType typeId="bf6c4681-a292-4164-8036-23593cb90eb2" valueTypeId="1ffada34-4b93-4fd1-ace0-da6c628187c9"/>
+    <refType typeId="1f855e89-5b78-4649-9a28-b777a79e8e0a" valueTypeId="40d26ba7-387f-43ee-8cdd-b09f92406ad2"/>
+    <selectionType typeId="7c29cc5c-a450-4470-9c5a-b8747f1e0ff5" valueTypeId="7f67edef-4ab2-41d6-99f8-7a8d19c8235f"/>
+    <listType typeId="82a62b88-8fe3-408c-80d2-f68c1e85f049" valueTypeId="0fa1ff48-7573-4418-a270-84f5ea3c9063"/>
+    <managerType typeId="4509aa06-bb16-41f2-8718-ddc9b95226d8" valueTypeId="db3337b0-7505-476d-a53b-5f7d83f3a34b"/>
+    <routePointRef typeId="b9a8bf58-44f8-4136-8ec1-5e9aa889286b" valueTypeId="6e74531c-817e-4a1c-80e6-35ea8833986c"/>
+  </producedTypes>
+  <name>ОповещениеСпасателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение спасателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ОповещениеСпасателей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <defaultObjectForm>BusinessProcess.ОповещениеСпасателей.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>BusinessProcess.ОповещениеСпасателей.Form.ФормаСписка</defaultListForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаИсполнителя</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="d55aba43-fccc-4181-81a0-bdb77bf1317a">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <tabularSections uuid="ef30de6a-d020-4762-b81b-3d1d5a8681fd">
+    <producedTypes>
+      <objectType typeId="9d80d1c7-9091-47c0-a1db-01e24760ae17" valueTypeId="592c62a0-8974-4566-9113-64dafcd0821e"/>
+      <rowType typeId="6cd21451-d87d-4809-9f22-0ed2e1b2967f" valueTypeId="20c4aa9b-8e8e-45f0-8eda-eaf88b2fb88d"/>
+    </producedTypes>
+    <name>ГотовыеСпасатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовые спасатели</value>
+    </synonym>
+    <attributes uuid="2a463e01-e9d0-4376-8c7c-a02d0f5f9a04">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d9e82d2b-4940-493c-a46a-996b9affc9a9">
+      <name>Подтвердил</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подтвердил</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f47908ee-e08c-447d-a82c-ca9ce07ba454">
+      <name>ВТочкеСбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>В точке сбора</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="adf44265-9b21-4e45-923d-c579e61cf2d8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8c8ef75c-5885-49d1-a7a6-d73a0b567ebb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

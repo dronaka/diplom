@@ -23,8 +23,30 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Бригада.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="53801769-4124-4989-bfe3-6e4b846bc10c">
+    <name>ПланРеагирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>План реагирования</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПланРеагирования</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="596665c7-e56f-4121-aab1-b631465205e5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="679f971a-173b-40ef-9b53-fa2b40125646">
     <producedTypes>
       <objectType typeId="fc6a17a8-7f1d-485b-bcf1-a72adf020bdb" valueTypeId="30fafb5f-a711-46c9-b0d2-c4e54472a97f"/>
@@ -43,36 +65,6 @@
       </synonym>
       <type>
         <types>CatalogRef.Пользователи</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="536291df-041b-4813-b160-0f1e779f73e7">
-      <name>Специализация</name>
-      <synonym>
-        <key>ru</key>
-        <value>Специализация</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>25</length>
-        </stringQualifiers>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="fccf9b81-0384-4b6d-99da-86e79da3d297">
-      <name>СтажРаботы</name>
-      <synonym>
-        <key>ru</key>
-        <value>Стаж работы</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-        </numberQualifiers>
       </type>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
