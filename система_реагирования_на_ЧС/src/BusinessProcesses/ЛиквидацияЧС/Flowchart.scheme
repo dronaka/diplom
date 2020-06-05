@@ -109,7 +109,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="940" left="780" bottom="1020" right="900"/>
+				<Location top="780" left="780" bottom="860" right="900"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -963,9 +963,9 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="740" y="350"/>
+					<Point x="740" y="349"/>
 					<Point x="840" y="350"/>
-					<Point x="840" y="940"/>
+					<Point x="839" y="779"/>
 				</PivotPoints>
 				<Connect>
 					<From>

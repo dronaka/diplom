@@ -19,7 +19,7 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <defaultObjectForm>BusinessProcess.ЛиквидацияЧС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultObjectForm>BusinessProcess.ЛиквидацияЧС.Form.ФормаЭлемента1</defaultObjectForm>
   <defaultListForm>BusinessProcess.ЛиквидацияЧС.Form.ФормаСписка</defaultListForm>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
@@ -107,6 +107,29 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="1c67a104-9976-4bb9-80e6-e39eacfe50ff">
+    <producedTypes>
+      <objectType typeId="dca62d03-4ad7-4b51-ad90-cddb16ab22f9" valueTypeId="6902dc4c-eaf6-446f-932d-be3e362b4321"/>
+      <rowType typeId="d226a92f-3cd5-4bf8-8a8f-701172d0dd90" valueTypeId="8ad8f666-bb78-4d69-8978-52862f30f16a"/>
+    </producedTypes>
+    <name>Доклады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доклады</value>
+    </synonym>
+    <attributes uuid="82588146-ca71-40e8-85ed-ed805601288b">
+      <name>Доклады</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доклады</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Доклады</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="4b9037da-5ab3-4267-8bb7-17a1e69f06ac">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -121,6 +144,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="692191f9-2d57-4af8-8fab-cb806be69bb9">
+    <name>ФормаЭлемента1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента1</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
