@@ -46,6 +46,9 @@
   <roles>Role.ЧтениеПланы</roles>
   <roles>Role.ЧтениеОстатковРесурсов</roles>
   <roles>Role.ЧтениеНСИ</roles>
+  <roles>Role.ЧтениеБригад</roles>
+  <roles>Role.ЧтениеПользователей</roles>
+  <roles>Role.ЧтениеДоклады</roles>
   <roles>Role.ДобавлениеИзменениеСобытий</roles>
   <roles>Role.ДобавлениеИзменениеОС</roles>
   <roles>Role.ДобавлениеИзменениеПлана</roles>
@@ -53,10 +56,6 @@
   <roles>Role.ДобавлениеИзменениеБригады</roles>
   <roles>Role.РаботаРесурсы</roles>
   <roles>Role.РаботаНСИ</roles>
-  <roles>Role.ОтветственныйЗаСобытия</roles>
-  <roles>Role.ОтветственныйЗаОС</roles>
-  <roles>Role.ОтветственныйЗаПлан</roles>
-  <roles>Role.ОтветственныйЗаБригады</roles>
   <roles>Role.Задачи</roles>
   <roles>Role.ОповещениеСпасателей</roles>
   <roles>Role.ПодсистемаБригады</roles>
@@ -68,10 +67,8 @@
   <roles>Role.ПодсистемаУправлениеЧС</roles>
   <roles>Role.ПодсистемаНСИ</roles>
   <roles>Role.ПодтверждениеУчастия</roles>
-  <roles>Role.ЧтениеБригад</roles>
   <roles>Role.УправлениеЧС</roles>
   <roles>Role.ДобавлениеЧС</roles>
-  <roles>Role.ЧтениеПользователей</roles>
   <catalogs>Catalog.СписокРесурсов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.РолиПользователей</catalogs>

@@ -4,21 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Configuration.система_реагирования_на_ЧС</name>
+		<name>Document.Доклады</name>
 		<right>
-			<name>Output</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>SaveUserData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ThinClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>WebClient</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

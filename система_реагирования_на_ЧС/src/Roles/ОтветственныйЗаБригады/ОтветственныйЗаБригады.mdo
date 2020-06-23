@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58719107-30f6-4039-b747-52fc0a889561">
-  <name>ОтветственныйЗаБригады</name>
-  <synonym>
-    <key>ru</key>
-    <value>Ответственный за бригады</value>
-  </synonym>
-</mdclass:Role>

@@ -36,7 +36,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="0" left="540" bottom="60" right="600"/>
+				<Location top="-40" left="540" bottom="20" right="600"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -65,7 +65,7 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="570" y="60"/>
+					<Point x="570" y="20"/>
 					<Point x="570" y="80"/>
 				</PivotPoints>
 				<Connect>
@@ -132,7 +132,7 @@
 				<ToolTip/>
 				<TabOrder>0</TabOrder>
 				<BackColor>auto</BackColor>
-				<TextColor>#22330F</TextColor>
+				<TextColor>#13330C</TextColor>
 				<LineColor>style:BorderColor</LineColor>
 				<GroupNumber>0</GroupNumber>
 				<ZOrder>0</ZOrder>
@@ -164,7 +164,7 @@
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="BeforeCreateTasks"/>
 				<Event name="OnCreateTask">СозданиеСобытияПриСозданииЗадач</Event>
-				<Event name="OnExecute"/>
+				<Event name="OnExecute">СозданиеСобытияПриВыполнении</Event>
 				<Event name="CheckExecutionProcessing"/>
 				<Event name="BeforeExecute"/>
 				<Event name="BeforeExecuteInteractively"/>
@@ -254,7 +254,7 @@
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="BeforeCreateTasks"/>
 				<Event name="OnCreateTask">СозданиеОСПриСозданииЗадач</Event>
-				<Event name="OnExecute"/>
+				<Event name="OnExecute">СозданиеОСПриВыполнении</Event>
 				<Event name="CheckExecutionProcessing"/>
 				<Event name="BeforeExecute"/>
 				<Event name="BeforeExecuteInteractively"/>
@@ -371,7 +371,7 @@
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
 					<Point x="750" y="280"/>
-					<Point x="750" y="480"/>
+					<Point x="750" y="360"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -576,10 +576,10 @@
 				<PivotPoints>
 					<Point x="340" y="540"/>
 					<Point x="340" y="560"/>
-					<Point x="495" y="560"/>
-					<Point x="495" y="300"/>
-					<Point x="650" y="300"/>
-					<Point x="650" y="320"/>
+					<Point x="545" y="560"/>
+					<Point x="545" y="340"/>
+					<Point x="750" y="340"/>
+					<Point x="750" y="360"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -587,7 +587,7 @@
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>Условие</Item>
+						<Item>Слияние</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -622,7 +622,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="480" left="700" bottom="540" right="800"/>
+				<Location top="360" left="700" bottom="420" right="800"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -648,10 +648,10 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="750" y="540"/>
-					<Point x="750" y="560"/>
-					<Point x="660" y="560"/>
-					<Point x="660" y="580"/>
+					<Point x="750" y="420"/>
+					<Point x="750" y="450"/>
+					<Point x="770" y="450"/>
+					<Point x="770" y="480"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -659,7 +659,7 @@
 						<PortIndex>4</PortIndex>
 					</From>
 					<To>
-						<Item>СозданиеБригады</Item>
+						<Item>Условие</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -701,7 +701,7 @@
 				<Picture/>
 				<PictureSize>AutoSize</PictureSize>
 				<TaskDescription>СозданиеБригады</TaskDescription>
-				<Explanation/>
+				<Explanation>ОтветсвенныйЗаБригады</Explanation>
 				<Group>false</Group>
 				<AddressingAttributes>
 					<AddressingAttribute ref="Task.ЗадачаИсполнителя.AddressingAttribute.Исполнитель">
@@ -716,7 +716,7 @@
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="BeforeCreateTasks"/>
 				<Event name="OnCreateTask">СозданиеБригадыПриСозданииЗадач</Event>
-				<Event name="OnExecute"/>
+				<Event name="OnExecute">СозданиеБригадыПриВыполнении</Event>
 				<Event name="CheckExecutionProcessing"/>
 				<Event name="BeforeExecute"/>
 				<Event name="BeforeExecuteInteractively"/>
@@ -879,7 +879,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="320" left="560" bottom="380" right="740"/>
+				<Location top="480" left="680" bottom="540" right="860"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -915,11 +915,9 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="560" y="350"/>
-					<Point x="540" y="350"/>
-					<Point x="540" y="405"/>
-					<Point x="750" y="405"/>
-					<Point x="750" y="480"/>
+					<Point x="680" y="510"/>
+					<Point x="660" y="510"/>
+					<Point x="660" y="580"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -927,7 +925,7 @@
 						<PortIndex>1</PortIndex>
 					</From>
 					<To>
-						<Item>Слияние</Item>
+						<Item>СозданиеБригады</Item>
 						<PortIndex>2</PortIndex>
 					</To>
 				</Connect>
@@ -963,9 +961,11 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="740" y="349"/>
-					<Point x="840" y="350"/>
-					<Point x="839" y="779"/>
+					<Point x="860" y="510"/>
+					<Point x="880" y="510"/>
+					<Point x="880" y="635"/>
+					<Point x="840" y="635"/>
+					<Point x="840" y="780"/>
 				</PivotPoints>
 				<Connect>
 					<From>

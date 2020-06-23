@@ -17,6 +17,10 @@
 			<name>Update</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>BusinessProcess.ОповещениеСпасателей.Attribute.Исполнитель</name>
@@ -26,7 +30,14 @@
 		</right>
 	</object>
 	<object>
-		<name>BusinessProcess.ОповещениеСпасателей.StandardAttribute.Ref</name>
+		<name>BusinessProcess.ОповещениеСпасателей.Attribute.ТочкаСбора</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>BusinessProcess.ОповещениеСпасателей.TabularSection.ГотовыеСпасатели.Attribute.Имя</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -40,7 +51,7 @@
 		</right>
 	</object>
 	<object>
-		<name>BusinessProcess.ОповещениеСпасателей.StandardAttribute.DeletionMark</name>
+		<name>BusinessProcess.ОповещениеСпасателей.StandardAttribute.HeadTask</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -54,14 +65,14 @@
 		</right>
 	</object>
 	<object>
-		<name>BusinessProcess.ОповещениеСпасателей.StandardAttribute.HeadTask</name>
+		<name>BusinessProcess.ОповещениеСпасателей.StandardAttribute.Ref</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>BusinessProcess.ОповещениеСпасателей.StandardAttribute.Started</name>
+		<name>BusinessProcess.ОповещениеСпасателей.StandardAttribute.DeletionMark</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -75,7 +86,7 @@
 		</right>
 	</object>
 	<object>
-		<name>BusinessProcess.ОповещениеСпасателей.TabularSection.ГотовыеСпасатели.Attribute.Имя</name>
+		<name>BusinessProcess.ОповещениеСпасателей.StandardAttribute.Started</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>

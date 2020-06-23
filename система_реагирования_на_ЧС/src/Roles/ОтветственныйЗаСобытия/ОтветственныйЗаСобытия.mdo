@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="537f72cc-f905-4000-a075-4d2ce9fe098b">
-  <name>ОтветственныйЗаСобытия</name>
-  <synonym>
-    <key>ru</key>
-    <value>Ответственный за события</value>
-  </synonym>
-</mdclass:Role>

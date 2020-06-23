@@ -19,7 +19,7 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <defaultObjectForm>BusinessProcess.ЛиквидацияЧС.Form.ФормаЭлемента1</defaultObjectForm>
+  <defaultObjectForm>BusinessProcess.ЛиквидацияЧС.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>BusinessProcess.ЛиквидацияЧС.Form.ФормаСписка</defaultListForm>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
@@ -58,6 +58,17 @@
     </synonym>
     <type>
       <types>DocumentRef.ОперативнаяСводка</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6bdc4c9c-2323-40bd-961d-ce9d380b6dff">
+    <name>ПерваяЗадачаБыла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая задача была</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>

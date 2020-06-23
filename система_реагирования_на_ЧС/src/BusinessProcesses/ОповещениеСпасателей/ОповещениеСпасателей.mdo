@@ -39,6 +39,20 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="78355615-23fc-4ffb-b775-ce1a2dfaaf67">
+    <name>ТочкаСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка сбора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <tabularSections uuid="ef30de6a-d020-4762-b81b-3d1d5a8681fd">
     <producedTypes>
       <objectType typeId="9d80d1c7-9091-47c0-a1db-01e24760ae17" valueTypeId="592c62a0-8974-4566-9113-64dafcd0821e"/>
